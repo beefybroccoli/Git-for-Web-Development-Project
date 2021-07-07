@@ -1,0 +1,138 @@
+https://codepen.io/calltedkim/pen/LYyNbLj
+
+    1. What is Semantic HTML? 
+    	Sematnic HTML is used to markup text for with tags. These tags describe the purpose and content of each tag.
+    	
+    2. What is HTML used for? 
+    	HTML is used to markup text so screen reader can understand the web content. Additionally, search engine can categorize the text in site for indexed and searching on a search engine.
+    	
+    3. What is an attribute and where do we put it? 
+    	Attributes are the property of a tag and it's place within a tag. The attribute contains attribute name and attribute value.
+    
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    	H1 tag is a header tag and should used to describe level 1 heading. Each page should has only a single H1 heading.
+    	
+    5. Name two tags that have required attributes
+    	A html page requires the follow tag in these at minimum, <head>,<body>,<header>,<footer>,<nav>.
+    	
+    6. What do we put in the head of our HTML document?
+    	In the head of a HTML document, the meta data of the page is stored. These meta data includes: page title, page width and height, document type and other properties of the html page.
+    	 
+    7. What is an id?
+    	An id i unique identifier for an html tag. Each id should be uinque within a html page.
+    	 
+    8. What elements can I add an id to?
+    	All html tags can be identified with id attribute, except <body>, <head> tags.
+    
+    9. How many times can I use the same id on a page? 
+    	An id should be used only one time on a page.
+    	
+    10. What is a class?
+    	A class is a pseudo identify to an abstract structure, which is composed multiple html tags.
+    	
+    11. What elements can I add a class to?
+        All html tags can be identified with id attribute, except <body>, <head> tags.
+    
+    12. How many times can I use the same class on a page?
+    	A class can be used as many times as needed on page.
+    	
+    13. How do I get my link to open in a new tab?
+    	To open a link of a new tab, the anchor should contain target attribute with attribute value of "_blank".
+    
+    14. What is the alt attribute in the image tag used for? 
+    	The alt attribute in an image tag describe the image to screen reader and search engine.
+    	
+    15. How do I reference an id?
+    	An id of a html tag is reference by using a "#" sign.
+    	
+    16. What is the difference between a section and a div
+    	A section tag describe a section of an article. A div tag shoudl be used for any semantic block that has no existing tag.
+    
+    17. What is CSS used for? 
+    	CSS is used to sytle a html document.
+    	
+    18. How to we select an element? Example - every h2 on the page
+    	body h2 { }.
+    	
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    	A class is associate with tags with similar property. An id is associate with a unique tag.
+    	For instance, a specific image should be reference with an id attribute since it is unique
+    	For instance, a generic div should be reference with class since it is unclear and maybe duplicated.
+    
+    20. How do we select classes in CSS?
+    	To select a class in CSS, you must use "." notation.
+    
+    21. How do we select a p element with a single class of “human”?
+    	"p.human".
+    
+    22. What is a parent child selector? When would this be useful? 
+    	A parent child selector is used to select all child tags of a parent tag.
+    	A parent child selector is used with DOM object in JavaScript to control html elements and change CSS properties.
+    
+    23. How do you select all links within a div with the class of sidebar?
+    	"div.sidebar > a"
+    
+    24. What is a pseudo selector?
+    	A pseudo selector allow CSS to select all tags with an associated class.
+    	
+    25. What do we use the change the spacing between lines?
+	To change the spacing between lines, line-height property is used to increase or decrease line spacing.
+    
+    26. What do we use to change the spacing between letters?
+        To change the spacing between letters, letter-spacing property is used to increase or decrease spacing.
+        	
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    	To change everything to capitals, apply text-transform: uppercase in CSS.
+    	To change everything to lowercase, apply text-transform: lowercase in CSS.
+    	To change everything to capitalize, apply text-transform: capitalize in CSS.
+    
+    28. How do I add a 1px border around my div that is dotted and black?
+    	"border: solid dotted 1px;"
+    	
+    29. How do I select everything on the page? 
+    	Use a universal selector, "*".
+    
+    30. How do I write a comment in CSS?
+    	/* insert comment */
+    
+    31. How do I find out what file I am in, when I am using the command line? 
+    	pwd - present working directory
+    	
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    	ls command.
+    
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    	To remove a file use command rm. "rm" command can intentionally delete all files inside a computer system.
+    
+    34. Why should I use version control? 
+    	Version control is used to manage team, control software change, software integration, and deployment.
+    	
+    35. How often should I commit to github?
+    	You should commit to github as often as the projet demands.
+    
+    36. What is the command we would use to push our repo up to github? 
+    	git push origin "[branch name".
+    	
+    37. Walk me through Lambda's git flow.
+    	
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    	An inline is an elment within another element and has no child element.
+    	A block lement is a parent element and may contain more than one child elements.
+    
+    2. What happens when an element is positioned absolutely? 
+    	The posistion of an element does not adjust the viewport of the device and may impact usability.
+    
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    	Use the percentage width will allow an element to take up space a percentage.
+    
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    display block by default : <nav>, <div>, <p>
+    disply inline by default : <b>, <em>, <span>
+    display inline-block by default : <img>, <button>, <textarea>, <input>
+    
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    Box model contains 4 layers, content, padding, border, margin. The total space of an element is the sum of content, padding, border and margin pixels.
+    To make all elements respect the width of given viewport, the elements can be sized with width percentage.
